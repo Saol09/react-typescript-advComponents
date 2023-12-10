@@ -1,10 +1,10 @@
-import Button from "./components/Button";
+import Button from './components/Button';
 
 function App() {
   return (
     <main>
       <p>
-        <Button>A Button</Button>
+        <Button target="">A Button</Button>
       </p>
       <p>
         <Button href="https://google.com">A link</Button>
