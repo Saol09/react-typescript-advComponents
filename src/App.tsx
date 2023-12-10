@@ -1,5 +1,16 @@
+import Button from "./components/Button";
+
 function App() {
-  return <h1>Let's get started!</h1>;
+  return (
+    <main>
+      <p>
+        <Button>A Button</Button>
+      </p>
+      <p>
+        <Button href="https://google.com">A link</Button>
+      </p>
+    </main>
+  );
 }
 
 export default App;
